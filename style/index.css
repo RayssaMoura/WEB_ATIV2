@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #8912ad;
+    height: 16vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.5);
+}
+
+.titulo{
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.titulo2{
+    margin-left: 8%;
+    margin-top: 2%;
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.menu-lista{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    color: white;
+    margin-left: 10vh;    
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+#txt{
+    font-family: 'Tilt Neon', cursive;
+    color: #000044;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: justify;
+}
+
+
+.txt-div{
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.txt-div p{
+    font-family: 'Tilt Neon', cursive;
+    color: #000044;
+    text-align: justify;
+}
+
+#img-div{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    justify-content: center;
+    margin-right: 8%;
+    margin-left: 4%;
+}
+
+#img-div img{
+    height: 380px;
+    width: 400px;
+}
+
+p{
+    font-size: 22px;
+}
